@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './ImageList.css';
+
 class SearchBar extends React.Component {
   state = {
     term: '',
